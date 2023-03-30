@@ -16,13 +16,30 @@
 title: Soumith's Shelf
 # email: soumithchandra@gmail.com
 description: >- # this means to ignore newlines until "baseurl:"
-  Write Something.
 baseurl: "/blog2" # the subpath of your site, e.g. /blog
 url: "https://soumithhh.github.io/" # the base hostname & protocol for your site, e.g. http://example.com
-twitter_username: soumithhh
-goodreads_username: soumith
 
+# twitter_username: soumithhh
+# goodreads_username: soumith
 # github_username:  soumithhh
+
+# Layout
+
+show_excerpts: true        # show article excerpts on the home page
+show_frame: true           # adds a gray frame to the site
+show_sidebar: false        # show a sidebar instead of the usual header
+minimal: false             # use a dark header
+
+external:                  # shows a footer with social links - for available icons see fontawesome.com/icons
+  #- {title: Mail, icon: envelope, url: "mailto:soumithhh@users.noreply.github.com"}
+  #- {title: Github, icon: github, url: "https://github.com/soumithhh"}
+    {title: Goodreads, icon: goodreads, url: "https://www.goodreads.com/user/show/83851001-soumith"}
+  - {title: Instagram, icon: instagram, url: "https://www.instagram.com/soumithhh/"}
+  - {title: Website, icon: globe, url: "https://www.soumith.com/"}
+  - {title: Twitter, icon: twitter, url: "https://www.Twitter.com/soumithhh"}
+  - {title: YouTube, icon: youtube, url: "https://www.youtube.com/@soumithhh"}
+  - {title: Facebook, icon: facebook, url: "https://www.facebook.com/soumithhh"}
+ #  - {title: Github, icon: github, url: "https://github.com/soumithhh"}
 
 # Build settings
 markdown: kramdown
